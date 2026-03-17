@@ -1,30 +1,42 @@
-# 🛰️ Radar (SAR) Image Target Recognition
-### Deep Learning | Computer Vision | Streamlit
+# 🛰️ Radar (SAR) Target Recognition System
+### Deep Learning | Computer Vision | Military Intelligence
+
+[![Python](https://img.shields.io/badge/Python-3.10-blue.svg)](https://www.python.org/)
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange.svg)](https://tensorflow.org)
+[![Streamlit](https://img.shields.io/badge/Streamlit-App-red.svg)](https://streamlit.io)
 
 ## 📝 Project Overview
-This project uses a **Convolutional Neural Network (CNN)** to classify Synthetic Aperture Radar (SAR) images from the **MSTAR Dataset**. It can identify 10 types of military targets with high precision.
-The model is trained on the **MSTAR (Synthetic Aperture Radar)** dataset, which contains thousands of SAR images of military vehicles. 
-- **Number of Classes:** 10 (e.g., T-72, BMP-2, BTR-70, etc.)
-- **Format:** Synthetic Aperture Radar (SAR) magnitudes.
-- **Source:** [Kaggle MSTAR Dataset](https://www.kaggle.com/datasets/a970932010/mstar-dataset)
+This project is a high-performance **Deep Learning application** designed to recognize military targets from **Synthetic Aperture Radar (SAR)** imagery. Using the **MSTAR Dataset**, I developed a Convolutional Neural Network (CNN) that can identify armored vehicles with high precision, even in complex environments.
 
-## 🛠️ Built With
-- **Language:** Python 3.10+
-- **Deep Learning:** TensorFlow & Keras
-- **UI Framework:** Streamlit
-- **OS:** Linux Mint (Optimized for ThinkPad)
+## 🚀 Key Features
+- **Accurate Classification:** Identifies 10 different military vehicle classes (T-72, BMP-2, BTR-70, etc.).
+- **Interactive Web UI:** Users can upload SAR images and get instant predictions via a **Streamlit** dashboard.
+- **Optimized for Linux:** Developed and tested on **Linux Mint** for stable performance.
+- **Real-time Visualization:** Displays the target image alongside the AI's confidence score.
 
-## 📂 Repository Contents
-- `app.py`: Main Streamlit application script.
-- `model_training.ipynb`: Complete training pipeline and evaluation.
-- `requirements.txt`: Environment dependencies.
-- `mstar_defense_final_pro.keras`: Pre-trained model weights.
+## 🛠️ Tech Stack
+- **Deep Learning:** TensorFlow & Keras (CNN Architecture)
+- **Frontend:** Streamlit (Web Application)
+- **Data Processing:** NumPy, OpenCV, Pillow
+- **Development Environment:** Linux Mint (ThinkPad)
 
-## 🚀 How to Run locally
-1. Clone the repo.
-2. Install dependencies: `pip install -r requirements.txt`
-3. Launch app: `streamlit run app.py`
+## 📂 Repository Structure
+| File | Description |
+| :--- | :--- |
+| `app.py` | Main application script for the Web UI |
+| `mstar_pro_model.h5` | Pre-trained CNN model weights |
+| `requirements.txt` | Necessary Python libraries for the project |
+| `README.md` | Project documentation (this file) |
+
+## 📊 Dataset
+The model uses the **MSTAR (Moving and Stationary Target Acquisition and Recognition)** dataset. 
+> [!IMPORTANT]
+> Due to file size constraints, the raw dataset is not hosted here. You can access it on [Kaggle](https://www.kaggle.com/datasets/a970932010/mstar-dataset).
+
+## ⚙️ How to Setup
+1. **Clone the Repo:** `git clone https://github.com/yazdan-yousaf/radar-sar-recognition.git`
+2. **Install Dependencies:** `pip install -r requirements.txt`
+3. **Run the App:** `streamlit run app.py`
 
 ---
-**Maintained by: Jalal**# radar-sar-recognition
-Radar Image Recognition using CNN &amp; Streamlit
+**Developed with ❤️ by Jalal** *Passionate about AI, Linux, and Computer Vision.*
