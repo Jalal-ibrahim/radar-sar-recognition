@@ -10,7 +10,7 @@ st.write("Upload a radar image to identify the military target.")
 # 1. Model Load Karein
 @st.cache_resource
 def load_my_model():
-    return tf.keras.models.load_model('mstar_defense_final_pro.keras')
+    return tf.keras.models.load_model('mstar_defense_final_pro.keras', compile=False)
 
 model = load_my_model()
 classes = ['2S1', 'BRDM2', 'BTR60', 'BTR70', 'D7', 'T62', 'T72', 'ZIL131', 'ZSU_23_4', 'SLICY']
