@@ -3,6 +3,10 @@
 
 ## 📝 Project Overview
 This project uses a **Convolutional Neural Network (CNN)** to classify Synthetic Aperture Radar (SAR) images from the **MSTAR Dataset**. It can identify 10 types of military targets with high precision.
+The model is trained on the **MSTAR (Synthetic Aperture Radar)** dataset, which contains thousands of SAR images of military vehicles. 
+- **Number of Classes:** 10 (e.g., T-72, BMP-2, BTR-70, etc.)
+- **Format:** Synthetic Aperture Radar (SAR) magnitudes.
+- **Source:** [Kaggle MSTAR Dataset](https://www.kaggle.com/datasets/a970932010/mstar-dataset)
 
 ## 🛠️ Built With
 - **Language:** Python 3.10+
